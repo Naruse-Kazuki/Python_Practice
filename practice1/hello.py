@@ -31,8 +31,8 @@ def hangman(word):
             print(" ".join(board))
             win = True
             break
-        if not win:
-            print("\n".join(stages[0:wrong+1]))
-            print("あなたの負け！正解は{}.".format(word))
+    if not win:
+        print("\n".join(stages[0:wrong+1]))
+        print("あなたの負け！正解は{}.".format(word))
 
 hangman("cat")
