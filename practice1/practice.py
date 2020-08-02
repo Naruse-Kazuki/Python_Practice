@@ -1,7 +1,9 @@
-n = int(input())
-if n%1000==0:
-    ans=0
-else:
-    x=n%1000
-    ans=1000-x
-print(ans)
+class Orange:
+    def __init__(self,w,c):
+        self.weight = w
+        self.color = c
+        print("Created!")
+
+or1 = Orange(10,"dark orange")
+print(or1.weight)
+print(or1.color)
