@@ -4,6 +4,6 @@ class Orange:
         self.color = c
         print("Created!")
 
-or1 = Orange(10,"dark orange")
+or1 = Orange(10,"orange")
 print(or1.weight)
 print(or1.color)
